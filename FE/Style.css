@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.pages{
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+    margin-left: 500px;   
+}
+
+/*Log in*/
+
+.loginBox{
+    padding: 20px;
+    margin: 35%;
+    margin-top: 20;
+    height: 300px ;
+    border: 1px solid black;
+    /* display: flex; */
+    align-items: center;
+    border-radius: 10px;
+}
+
+.loginBox h1{
+    margin-left: 30% ;
+    margin-bottom: 20px;
+}
+
+
+.loginBox label{
+    margin-top: 40px;
+
+}
+
+.loginBox button{
+    margin-top: 20px;
+    height: 30px;
+    width: 50px;
+    background-color:#1976d8;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+
+.logo img{
+    
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+
+/*Log out*/
+
+.box{
+    padding: 20px;
+    margin: 35%;
+    margin-top: 50;
+    height: 100px ;
+    border: 0.2px solid black;
+    /* display: flex; */
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box button {
+    width: 40%;
+    height: 30%;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.yes{
+    background-color: greenyellow;
+}
+
+.no{
+    background-color: red
+}
